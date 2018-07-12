@@ -8,6 +8,10 @@
       <Button type="primary" @click="getAllProductList">获取订单列表</Button>
     </div>
 
+    <Upload action="http://192.168.1.141:8083/sell/buyer/product/testuploadimg">
+      <Button type="ghost" icon="ios-cloud-upload-outline">Upload files</Button>
+    </Upload>
+
   </div>
 </template>
 <script>
